@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "ai-chatbot-app"
+version = "0.1.0"
+authors = [
+    {name="Your Name", email="you@example.com"}
+]
+description = "AI Chatbot Application with Ollama Integration (Portable Version)"
+readme = "README.md"
+license = {file="LICENSE"}
+requires-python = ">=3.8"
+keywords = ["ai", "chatbot", "ollama"]
+
+[project.urls]
+homepage = "https://github.com/yourusername/ai-chatbot-app"
+repository = "https://github.com/yourusername/ai-chatbot-app"
+
+[project.scripts]
+ai-chatbot-app = "portable_chatbot:main"
